@@ -1,0 +1,143 @@
+/* Global Styles */
+body {
+   margin: 0;
+   background-color: rgb(255, 255, 255);
+}
+
+a {
+   color: rgb(255, 196, 0);
+   text-decoration-line: none;
+}
+
+h1 {
+   padding-top: 25px;
+   font-family: 'Press Start 2P', cursive;
+   font-size: 20px;
+}
+
+h2, p, a{
+   font-family: 'IBM Plex Mono', monospace;
+}
+
+aside {
+   height: 100%;
+   width: 40%;
+   padding-left: 0.5rem;
+   margin-left: 0.5rem;
+   box-shadow: inset 5px 0 5px -5px rgb(219, 11, 237);
+   color: rgb(5, 1, 33);
+}
+
+#navbar {
+   color: rgb(255, 0, 47);
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   justify-items: center;
+   background-color: rgb(5, 1, 33);
+   border-bottom: 10px solid rgb(219, 11, 237);
+}
+
+#links {
+   display: flex;
+   margin: 1;
+   padding: 0;
+}
+
+#links li {
+   display: inline-block;
+   padding: 1rem;
+   z-index: 0;
+   border-radius: 150px;
+   font-family: 'IBM Plex Mono', monospace;
+
+}
+
+#links li :hover {
+   color: rgb(156, 129, 11);
+}
+
+#hero-banner {
+   height: 20rem;
+}
+
+#hero-banner img {
+   height: 20rem;
+   width: 100%;
+   border-bottom: 10px solid rgb(219, 11, 237);
+
+}
+
+
+.container-items {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+#work {
+   height: 25rem;
+}
+
+
+#footer {
+   height: 10rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(5, 1, 33);
+   color: rgb(255, 0, 47);
+   display: grid;
+   grid-template-rows: 1fr 1fr 1fr;
+   justify-items: center;
+   font-family: 'Press Start 2P', cursive;
+   border-top: 10px solid rgb(219, 11, 237);
+
+
+}
+
+.heading {
+   width: 10rem;
+}
+
+.wrapper {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   align-items: start;
+   column-gap: 10px;
+
+}
+
+.box1 {
+   grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 1;
+   grid-row-end: 3;
+}
+
+.box2 {
+   grid-column-start: 1;
+   grid-row-start: 3;
+   grid-row-end: 3;
+}
+
+.workimg {
+   height: 100%; 
+   width: 100%; 
+   object-fit: contain;
+}
+
+#about{
+   height: 5rem;
+   margin-top: 2%;
+
+}
+
+.container-items{
+   display: flex;
+   align-items: flex-start;
+}
+
+
+#contact {
+   height: 5rem;
+   margin-bottom: 2%;
+}
