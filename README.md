@@ -3,7 +3,7 @@
 
 ## The Repository
 
-This repository contains a basic [portfolio](https://c-navarroperez.github.io/Bootstrap-Portfolio/) styled with CSS, created to showcase my current work.
+This repository contains a basic [portfolio](https://c-navarroperez.github.io/CSS-Portfolio/) styled with CSS, created to showcase my current work.
 
 ## Instructions
 
